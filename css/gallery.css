@@ -203,6 +203,14 @@ body {
     padding: 10px;
   }
 
+  .full .content img {
+    left: 50%;
+    transform: translate3d(0, 0, 0);
+    animation: zoomin 1s ease;
+    max-width: 30%;
+    max-height: 100vh;
+    margin: auto;
+  }
   .gallery img {
     border-radius: 8px;
   }
